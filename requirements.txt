@@ -1,0 +1,15 @@
+ultralytics>=8.0.113
+opencv-python
+torch>=1.13.0
+torchvision
+numpy
+pandas
+streamlit
+matplotlib
+scipy
+# Optional (for annotation conversion / training utils)
+pyyaml
+
+
+# For deployment/optimization (optional)
+# onnxruntime
