@@ -1,27 +1,18 @@
-# Automotive Object Detection — YOLOv8 Demo
+#  Automotive Object Detection — YOLOv8
 
+An advanced **AI/ML-based Automotive Object Detection System** built using **Ultralytics YOLOv8**.  
+This project detects and tracks vehicles, pedestrians, and other road objects in real-time or from recorded videos.
 
-## Quick start (demo)
+---
 
+##  Overview
 
-1. Create and activate a Python virtual environment (recommended).
-2. Install requirements: `pip install -r requirements.txt`.
-3. Put a sample road video in `data/raw/sample_video.mp4` (or use webcam).
-4. Run the detection demo: `python src/detect_objects.py --source data/raw/sample_video.mp4`.
+This project demonstrates how AI can improve **driver assistance** and **road safety** by detecting surrounding objects such as:
+- Cars, trucks, and buses  
+- Motorbikes and bicycles  
+- Pedestrians and traffic elements  
 
+It uses the **YOLOv8n** model for fast and efficient real-time object detection on road videos or webcam input.
 
-## Streamlit dashboard
+---
 
-
-Run the interactive demo: `streamlit run app/dashboard.py`.
-
-
-## Fine-tuning on custom dataset
-
-
-Prepare `data.yaml` for YOLO training and use `src/train_model.py` or run the `yolo` CLI command as configured in the training script.
-
-
-## Notes
-- `ultralytics` will auto-download `yolov8n.pt` if not present.
-- For edge deployment, convert the trained weights to ONNX/TensorRT separately.
